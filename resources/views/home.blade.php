@@ -67,7 +67,14 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.824352054827!2d39.27573517563499!3d-6.791216266418931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4c7fcf9a5843%3A0x61cda3b057276e66!2s84%20Kinondoni%20Rd%2C%20Dar%20es%20Salaam!5e0!3m2!1sen!2stz!4v1701061810824!5m2!1sen!2stz" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="contact-form">
-                <form action="contactme.php" method="POST">
+            @if(session('success'))
+                <div class="alert alert-success fade in">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong> {{ session('success') }} </strong>
+                </div>
+                @endif
+                <form action="/submit" method="POST" enctype="multipart/form-data">
+                    @csrf
                     <input type="text" name="name" placeholder="Name" class="contact-form-txt" required>
                     <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number" maxlength="10" class="contact-form-phone">
                     <input type="email" name="email" placeholder="Email" class="contact-form-email" required>

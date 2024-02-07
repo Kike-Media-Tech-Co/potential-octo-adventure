@@ -59,9 +59,9 @@
         <nav class="navbar">
             <ul>
                 <li><a class="{{ Route::is('about') ? 'active' : '' }}" href="/about">about</a></li>
-                <li><a class="{{ Route::is('about') ? 'active' : '' }}" href="/services">services</a></li>
-                <li><a class="{{ Route::is('about') ? 'active' : '' }}" href="/contact">contact</a></li>
-                <li><a class="{{ Route::is('about') ? 'active' : '' }}" href="#">blog</a></li>
+                <li><a class="{{ Route::is('services') ? 'active' : '' }}" href="/services">services</a></li>
+                <li><a class="{{ Route::is('contact') ? 'active' : '' }}" href="/contact">contact</a></li>
+                <li><a class="{{ Route::is('blog') ? 'active' : '' }}" href="#">blog</a></li>
             </ul>
         </nav>
     </header>
@@ -73,8 +73,8 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>About Us</h4>
                         <ul>
-                            <li><i class="ion-ios-arrow-forward"></i> <a href="#about">About us</a></li>
-                            <li><i class="ion-ios-arrow-forward"></i> <a href="#service">Our services</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="/about">About us</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="/services">Our services</a></li>
                             <li><i class="ion-ios-arrow-forward"></i> <a href="#">Terms & condition</a></li>
                             <li><i class="ion-ios-arrow-forward"></i> <a href="#">Privacy policy</a></li>
                         </ul>
@@ -85,7 +85,7 @@
                         <ul>
                             <li><i class="ion-ios-arrow-forward"></i> <a href="#">Blog</a></li>
                             <li><i class="ion-ios-arrow-forward"></i> <a href="#">Career</a></li>
-                            <li><i class="ion-ios-arrow-forward"></i> <a href="#contact">Contact</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="/contact">Contact</a></li>
                             <!-- <li><i class="ion-ios-arrow-forward"></i> <a href="#faq">FAQ</a></li> -->
                         </ul>
                     </div>
