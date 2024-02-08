@@ -141,7 +141,12 @@ body{
 
 .header .navbar ul li a:hover{
     color: #F7B0DC;
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.active {
+    color: #F7B0DC;
+    font-weight: lighter;
 }
 
 .header .logo i{
