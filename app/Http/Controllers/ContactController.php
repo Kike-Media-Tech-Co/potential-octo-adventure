@@ -27,7 +27,7 @@ class ContactController extends Controller
         $message = $request->get('message');
 
 
-        $admin_mail = "bhamiji09@gmail.com";
+        $admin_mail = "info@kikeafrica.co.tz";
 
         //Mail the Admin
         Mail::to($admin_mail)->send(new AdminMail( $name, $phone, $email, $message ));
