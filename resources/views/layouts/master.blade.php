@@ -28,7 +28,7 @@
     <meta property="og:title" content="Kike Africa">
     @endif
     <meta property="og:description" content="Kike Africa is a pioneering media and technology company at the forefront of civic technology, and serving as a vibrant coding & data hub for young women in Tanzania. We also offer expert consultation services to drive innovation and success.">
-    <link rel="canonical" href="https://kikeafrica.co.tz/">
+    <link rel="canonical" href="https://kikeafrica.co.tz/{{ $canonical_path}}">
     <title>Kike Africa</title>
     <link rel="stylesheet" href="/css/style.css">
     @if ($title !== "Home")

@@ -16,19 +16,19 @@ use App\Http\Controllers\MailController;
 */
 
 Route::get('/', function () {
-    return view('home', ['title' => 'Home']);
+    return view('home', ['title' => 'Home', 'canonical_path' => '' ]);
 })->name('home');
 
 Route::get('/about', function () {
-    return view('about', ['title' => 'About Us']);
+    return view('about', ['title' => 'About Us', 'canonical_path' => 'about']);
 })->name('about');
 
 Route::get('/services', function () {
-    return view('services', ['title' => 'Our Services']);
+    return view('services', ['title' => 'Our Services', 'canonical_path' => 'services']);
 })->name('services');
 
 Route::get('/contact', function () {
-    return view('contact', ['title' => 'Contact Us']);
+    return view('contact', ['title' => 'Contact Us', 'canonical_path' => 'contact']);
 })->name('contact');
 
 Route::post('/submit', [ContactController::class, 'contactPost'])->name('submit');
