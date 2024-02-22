@@ -33,22 +33,16 @@
                         <p>Our commitment to civic engagement and technological advancement drives us to create tailored solutions that empower communities. From interactive platforms to streamline public participation to innovative tools fostering transparent governance, we are dedicated to making a lasting impact.<br /></p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-6 service">
+                <!-- <div class="col-lg-6 col-sm-6 service">
                     <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
                         <h6>Digital Media Excellence</h6>
                         <p>Our storytelling goes beyond conventional content; it's about crafting compelling narratives that resonate with the diverse experiences of women. Through state-of-the-art digital media, we not only share perspectives but also prioritize women's voices, connecting people in profound and meaningful ways.</p>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-6 col-sm-6 service">
                     <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
                         <h6>Kike Coding and Data Hub</h6>
                         <p>We are passionate about equipping the next generation with the skills they need to thrive in the digital age. Our Kike coding initiatives provide a space for young minds to explore the world of coding, while our Data Hub serves as a hub of information and knowledge, where young female journalist learn how to utilize data sources and data analysis for investigative work.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-6 service">
-                    <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
-                        <h6>Data & Technology Consultation</h6>
-                        <p>In a world driven by data, we understand its power and potential. Our consultancy services offer tailored insights, strategies, and implementation plans, ensuring that our clients harness the full capabilities of data and technology for their unique goals.</p>
                     </div>
                 </div>
             </div>
